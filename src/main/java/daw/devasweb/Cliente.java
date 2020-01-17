@@ -15,6 +15,14 @@ public class Cliente {
     private int edad;
     private String mail;
 
+    public Cliente(String nombre, int edad, String mail) {
+        this.nombre = nombre;
+        this.edad = edad;
+        this.mail = mail;
+    }
+    
+    
+
     public String getNombre() {
         return nombre;
     }
